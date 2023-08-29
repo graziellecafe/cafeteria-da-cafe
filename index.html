@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafeteria da Café</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="index.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="./img/1.png" alt="Cafeteria da Café">
+        <img src="./img/logo.svg" alt="Cafeteria da Café">
         <nav>
             <a href="#">Início</a>
             <a href="#">Cafés</a>
@@ -19,42 +26,44 @@
 
     <main>
         <section>
-            <img src="./img/2.png" alt="Receitas Fáceis">
+            <img src="./img/principal.png" alt="Cafeteria">
             <div>
-                <h1>Beba algo <span>impactante</span></h1>
+                <h1>Encontre o seu café favorito</h1>
                 <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
                 <a href="#" class="button">Comece agora</a>
             </div>
         </section>
         <section>
+            <div class="cards"></div>
             <article>
-                <img src="./img/3.png" alt="Receitas Fáceis 3">
-                <strong> Café Cremoso </strong>
+                <strong> Mocaccino </strong>
+                <img src="./img/1.png" alt="Receitas Fáceis 3">
                 <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
             </article>
             <article>
+                <strong> Iced Coffee Late </strong>
+                <img src="./img/2.png" alt="Receitas Fáceis 4">
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
+            </article>     
+            <article>
+                <strong> Float Coffee </strong>
+                <img src="./img/3.png" alt="Receitas Fáceis 4">
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
+            </article> 
+            <article>
+                <strong> Chocolate Coffee </strong>
                 <img src="./img/4.png" alt="Receitas Fáceis 4">
-                <strong> Café Cremoso </strong>
                 <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
-            </article>
-            <article>
-                <img src="./img/5.png" alt="Receitas Fáceis 5">
-                <strong> Café Cremoso </strong>
-                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
-            </article>
-            <article>
-                <img src="./img/6.png" alt="Receitas Fáceis 6">
-                <strong> Café Cremoso </strong>
-                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
-            </article>
-        </section>
+            </article>        
+            <div class="cards"></div>
+
         <h2>E <span>vários</span> outros! </h2>
         <a href="#" class="button">Conheça a cafeteria</a>
-
+    </section>
     </main>
 
     <footer>
-        <div><img src="./img/1.png" alt="Logo"></div>
+        <div><img src="./img/logo.svg" alt="Logo"></div>
             <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
         </div>    
         <nav>
@@ -63,9 +72,10 @@
             <a href="#">Eventos</a>
             <a href="#">Contato</a>
         </nav>
-        <footer>
+        <form>
             <label for="email">Receba materiais gratuitos no seu e-mail</label>
-        </footer>
+            <input type="text" name="email" id="email" placeholder="Digite o seu e-mail" >
+        </form>
     </footer>
 </body>
 </html>
